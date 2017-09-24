@@ -4,6 +4,7 @@ USE TestDB
 GO
 USE HumanResource
 GO
+-- ABS
 --Tra cứu nhân viên
 CREATE FUNCTION dbo.Danh_sach_nhan_vien(@depid numeric(3,0))
 RETURNS table
